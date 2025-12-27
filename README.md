@@ -3,7 +3,7 @@ A modern, responsive personal portfolio website built to showcase my projects, s
 Designed with clean UI, smooth animations, and optimized performance for all devices.
 
 🔗 Live Demo:
-👉 https://portfolio-silk-psi-vt3c87eskj.vercel.app/
+👉https://agent-694fb255efaca95a71--clever-zuccutto-5be716.netlify.app/
 
 ✨ Features
 Responsive design (Mobile, Tablet & Desktop)
