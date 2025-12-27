@@ -1,6 +1,24 @@
 🚀 Personal Portfolio Website
 A modern, responsive personal portfolio website built to showcase my projects, skills, and experience as a Frontend Developer.
 Designed with clean UI, smooth animations, and optimized performance for all devices.
+## 🏠 Home
+![Home](home.png)
+
+## 👤 About
+![About](about.png)
+
+## 💼 Projects
+![Projects](project.png)
+
+## 🛠️ Services
+![Services](myservi.png)
+
+## 🎓 Education
+![Education](educt.png)
+
+## 📞 Contact
+![Contact](contact.png)
+
 
 🔗 Live Demo:
 👉https://agent-694fb255efaca95a71--clever-zuccutto-5be716.netlify.app/
