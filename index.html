@@ -1156,10 +1156,10 @@
         </div>
         
         <div class="social-media">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
     </section>
 
@@ -1220,8 +1220,8 @@
                 </div>
                 
                 <div class="btn-box" style="justify-content: start; margin-top: 30px;">
-                    <a href="#" class="btn">Download CV</a>
-                    <a href="soni.pdf" class="btn btn-outline" style="margin-left: 15px;">Download Resume</a>
+                    <a href="#contact" class="btn">Get In Touch</a>
+                    <a href="#contact" class="btn btn-outline" style="margin-left: 15px;">Hire Me</a>
                 </div>
             </div>
         </div>
@@ -1380,18 +1380,22 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
         
-        <form action="#">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden" style="display:none;">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </p>
             <div class="input-box">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
             
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="tel" name="phone" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
             </div>
-            
-            <textarea placeholder="Your Message" required></textarea>
+
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
